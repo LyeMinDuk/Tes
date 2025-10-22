@@ -1,54 +1,72 @@
-<div align="center">
-  
-  ![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/booken)
-  ![GitHub stars](https://img.shields.io/github/stars/codewithsadee/booken?style=social)
-  ![GitHub forks](https://img.shields.io/github/forks/codewithsadee/booken?style=social)
-[![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_)
-  [![YouTube Video Views](https://img.shields.io/youtube/views/iHsVNWmcBAs?style=social)](https://youtu.be/iHsVNWmcBAs)
+# MINDÙK - Website Quản Lý Nhà Hàng
 
-  <br />
-  <br />
+## Giới thiệu
 
-  <h2 align="center">Booken - Book Store Website</h2>
+**MINDÙK** là website quản lý nhà hàng cao cấp, cung cấp trải nghiệm đặt bàn trực tuyến, giới thiệu thực đơn đặc biệt, thông tin không gian, đội ngũ đầu bếp, blog/tin tức ẩm thực và hỗ trợ liên hệ nhanh chóng. Website hướng đến sự chuyên nghiệp, sang trọng, thân thiện với người dùng và dễ dàng quản lý cho nhà hàng.
 
-  Booken is a fully responsive book store website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
+## Tính năng nổi bật
 
-  <a href="https://codewithsadee.github.io/booken/"><strong>➥ Live Demo</strong></a>
+- **Trang chủ**: Banner video, giới thiệu ngắn, các box nổi bật (thực đơn, blog, đặt bàn).
+- **Giới thiệu**: Thông tin về nhà hàng, triết lý ẩm thực, không gian, đội ngũ đầu bếp.
+- **Thực đơn**: Danh sách các món ăn đặc biệt, giá cả, mô tả chi tiết.
+- **Đặt bàn trực tuyến**: Form đặt bàn với đầy đủ trường thông tin (tên, email, số điện thoại, ngày, giờ, số khách...).
+- **Blog/Tin tức**: Các bài viết, tin tức, chia sẻ về ẩm thực, sự kiện nhà hàng.
+- **Liên hệ**: Địa chỉ, số điện thoại, email, bản đồ, giờ mở cửa, mạng xã hội.
+- **Footer**: Thông tin bản quyền, liên kết, mạng xã hội.
 
-</div>
+## Công nghệ sử dụng
 
-<br />
+- **HTML5, CSS3**: Thiết kế giao diện hiện đại, responsive.
+- **JavaScript**: Xử lý tương tác, hiệu ứng, kiểm tra dữ liệu nhập.
+- **FontAwesome**: Sử dụng icon cho các thành phần tương tác.
+- **Google Fonts**: Tích hợp font chữ đẹp, sang trọng.
+- **Video background**: Tạo hiệu ứng sinh động cho banner.
 
-### Demo Screeshots
+## Cách sử dụng
 
-![Booken Desktop Demo](./readme-images/desktop.png "Desktop Demo")
+1. Clone hoặc tải về mã nguồn website từ repository.
+2. Mở file `index.html` bằng trình duyệt để trải nghiệm giao diện và chức năng.
+3. Sử dụng các liên kết trên trang để truy cập các tính năng như thực đơn, đặt bàn, blog, liên hệ...
+4. Có thể chỉnh sửa nội dung, hình ảnh, video trong các thư mục `/assets/images/`, `/assets/css/`, `/assets/js/` để phù hợp với nhu cầu nhà hàng.
 
-### Prerequisites
+## Cấu trúc thư mục
 
-Before you begin, ensure you have met the following requirements:
-
-* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
-
-### Run Locally
-
-To run **Booken** locally, run this command on your git bash:
-
-Linux and macOS:
-
-```bash
-sudo git clone https://github.com/codewithsadee/booken.git
+```
+/
+├── index.html
+├── about.html
+├── reservation.html
+├── blog/
+│   └── blog_1.html, blog_2.html, blog_3.html, ...
+├── assets/
+│   ├── css/
+│   │   ├── homepage.css
+│   │   └── header.css
+│   ├── images/
+│   │   ├── logo.png
+│   │   ├── background.mp4
+│   │   ├── blog/
+│   │   └── ...
+│   ├── js/
+│   │   ├── reservation.js
+│   │   └── include.js
+│   └── ...
+└── README.md
 ```
 
-Windows:
+## Đóng góp & phát triển
 
-```bash
-git clone https://github.com/codewithsadee/booken.git
-```
+- Nếu bạn muốn đóng góp, chỉnh sửa hoặc phát triển thêm, hãy tạo pull request hoặc liên hệ qua thông tin liên hệ trên website.
+- Ý kiến đóng góp, phản hồi của bạn sẽ giúp website ngày càng hoàn thiện và phục vụ tốt hơn.
 
-### Contact
+## Thông tin liên hệ
 
-If you want to contact with me you can reach me at [Twitter](https://www.twitter.com/codewithsadee).
+- Địa chỉ: Số 3 Cầu Giấy, Hà Nội, Việt Nam
+- Điện thoại: +84 335 533 023
+- Email: lmd388222@gmail.com
 
-### License
+---
 
-This project is **free to use** and does not contains any license.
+> Sản phẩm thuộc đề tài môn Thiết kế WEB - Trường Đại học Giao thông Vận tải  
+> Sinh viên thực hiện: Lê Minh Đức - CNTT2 - K65  
+> Giảng viên hướng dẫn: TS. Lại Mạnh Dũng, ThS. Nguyễn Hữu Luân
